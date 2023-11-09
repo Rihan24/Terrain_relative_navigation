@@ -8,8 +8,16 @@ The trajectory was employed as lunar descent trajectory for simulation and testi
 ## Fetaure matching
 Features on lunar image were captured using OpenCV functionality, and matched with database satellite data.<br>
 <img src="/test data 1/original data.png" width="50%" height="50%"/>  <br>
-Database satellite image <br>
+Database satellite image <br><br>
 <img src="/test data 1/data_img2.png" width="50%" height="50%"/>  <img src="/test data 1/data_img4.png" width="40%" height="40%"/><br>
-Instantaneous camera data from lunar lander<br>
+Instantaneous camera data from lunar lander<br> <br>
 <img src="/test data 1/scan.JPG" width="50%" height="50%"/>  <img src="/test data 1/ftr_matching4.JPG" width="40%" height="40%"/><br>
+Feature matching results <br>
 
+## Camera caliberation and pose estimation
+Backward propogation of detected features is used to estimate position and orientation is inertial frame <br>
+<img align="center" src="/media/Capture12.jpg" width="50%" height="50%"/>  <br>
+
+## Some results
+
+<img align="center" src="/results/tracked traj.JPG" width="50%" height="50%"/>

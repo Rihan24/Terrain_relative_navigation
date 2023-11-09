@@ -1,6 +1,7 @@
 # Terrain_relative_navigation
 Gitbook documentation for theory, references present [here](https://dslvaaron24.gitbook.io/terrain-relative-navigation/) <br>
 Presentation [here](https://drive.google.com/file/d/1udPQsN9tiEr7wFe63foQhQWi7pYzFkXh/view?usp=sharing)
+<img src="/media/Mars-Rover-TRN.gif" width="50%" height="50%"/>  <br>
 ## Data generation
 High resolution lunar terrain data was used as [data set](https://github.com/Rihan24/Terrain_relative_navigation/tree/main/test%20data%201) for testing  visual positioning estimation algorithm. A fule efficient three dimensional decent trajectory was generated using polynomial splines shown below.<br>
 The trajectory was employed as lunar descent trajectory for simulation and testing of estimation algorithms<br> <br>
